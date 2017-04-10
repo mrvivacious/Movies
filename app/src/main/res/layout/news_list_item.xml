@@ -22,7 +22,11 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="12dp"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        tools:layout_constraintLeft_creator="1" />
 
     <!-- using 'tools' instead of 'android' below provides the dummy text for use in
             Android studio, but doesn't include it when you build the App. -->
@@ -41,7 +45,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView"
         android:layout_marginTop="2dp"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.0"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        tools:layout_constraintLeft_creator="1" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -50,32 +58,32 @@
         app:srcCompat="@mipmap/ic_launcher"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="12dp"
-        android:layout_marginRight="104dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="12dp"
-        app:layout_constraintVertical_bias="0.051"
-        android:layout_marginLeft="8dp"
+        app:layout_constraintVertical_bias="0.049"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="1.0" />
+        app:layout_constraintHorizontal_bias="0.502"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
 
     <ImageView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:src="@android:drawable/divider_horizontal_dark"
-        android:layout_width="fill_parent"
-        android:layout_height="1sp"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
         android:scaleType="fitXY"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:paddingBottom="2dp"
         android:paddingTop="2dp"
         android:background="@android:color/white"
-        android:layout_marginLeft="0dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="0dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="14dp"
         app:layout_constraintTop_toBottomOf="@+id/releaseDateTextView"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.0"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
 
 </android.support.constraint.ConstraintLayout>
